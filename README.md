@@ -10,6 +10,7 @@
 * Calculating cosine similarity between the corresponding word embeddings
 * Plotting the similarity matrix.
 
-## Example:
+## Example result:
+![Similarity calculation using Bert embedding](results.png)
 
 
