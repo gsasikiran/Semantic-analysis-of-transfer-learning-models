@@ -13,4 +13,6 @@
 ## Example result:
 ![Similarity calculation using Bert embedding](results.png)
 
+## Need to update.
+
 
