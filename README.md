@@ -8,7 +8,7 @@
   Here we tried to analyze the transfer learning models' embeddings and their role in semantics of the words. We also assign the similar words of second sentence for each word in the first sentence as a list.
  
 ## Procedure:
-* Download the word embeddings of transfer learning models.(Currently BERT and ELMo)
+* Download the word embeddinlot on the right side reprgs of transfer learning models.(Currently BERT and ELMo)
 * Input two different sentences.
 * Tokenizing the sentences into words.
 * Assigning the corresponding word embeddings of a transfer learning model.
@@ -26,7 +26,7 @@
 * allennlp
 
 ## Example results:
- The first plot is the similarity matrix based on the BERT embeddings. The plot on the right side represents the similarity matrix of high level LSTM(context based) word representations of ELMo embeddings.The final and below plot depicts the similarity matrix for lower level LSTM representations(syntax based) of ELMo embeddings.
+ The first plot (top left) is the similarity matrix based on the BERT embeddings. The plot on the right side represents the similarity matrix of high level LSTM(context based) word representations of ELMo embeddings.The final and below plot depicts the similarity matrix for lower level LSTM representations(syntax based) of ELMo embeddings.
 
 ![](results/bert_1.png) ![](results/elmo_1.png) ![](results/elmo_2.png)
 
