@@ -32,6 +32,8 @@
 
 ![ELMo embedding(Low level LSTM)](elmo_2.png)
 
+* Note: The lighter the cell, the more similar the words are!!
+
 ## Observations
 * ELMo is case sensitive. 'A' and 'a' are not equal in ELMo.
 * As explained in the [paper](https://arxiv.org/pdf/1802.05365.pdf), the higher level LSTM embeddings of ELMo are highly sensitive to the context. This means that two equal words are not similar, when they are surrounded by different neighbouring words in different sentences.
