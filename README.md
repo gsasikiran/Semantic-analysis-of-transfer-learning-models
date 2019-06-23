@@ -15,7 +15,7 @@
 * Calculating cosine similarity between the corresponding word embeddings.
 * Plotting the similarity matrix.
 
-##Frame works and libraries:
+## Frame works and libraries:
 * NumPy
 * Scipy
 * NLTK
@@ -26,6 +26,8 @@
 * allennlp
 
 ## Example results:
+ The first plot is the similarity matrix based on the BERT embeddings. The plot on the right side represents the similarity matrix of high level LSTM(context based) word representations of ELMo embeddings.The final and below plot depicts the similarity matrix for lower level LSTM representations(syntax based) of ELMo embeddings.
+
 ![Bert embedding](bert_1.png) ![ELMo embedding(High level LSTM)](elmo_1.png) 
 
 ![ELMo embedding(Low level LSTM)](elmo_2.png)
