@@ -26,9 +26,8 @@
 * allennlp
 
 ## Example results:
- The first plot (top left) is the similarity matrix based on the BERT embeddings. The plot on the right side represents the similarity matrix of high level LSTM(context based) word representations of ELMo embeddings.The final and below plot depicts the similarity matrix for lower level LSTM representations(syntax based) of ELMo embeddings.
 
-![](results/bert_1.png) ![](results/elmo_1.png) ![](results/elmo_2.png)
+![](results/bert_similarity_matrix.jpg) ![](results/elmo_similarity_matrix.jpg) ![](results/elmo_syntax_based_similarity_matrix.jpg) ![](results/gpt_similarity_matrix.jpg)
 
 * Note: The lighter the cell, the more similar the words are!!
 
@@ -37,10 +36,9 @@
 * As explained in the [paper](https://arxiv.org/pdf/1802.05365.pdf), the higher level LSTM embeddings of ELMo are highly sensitive to the context. This means that two equal words are not similar, when they are surrounded by different neighbouring words in different sentences.
 * These high level features works better with polysemy.
 * BERT is not case sensitive. It is not context sensitive either.
- The word embedding of the word "spring" in both the sentences "Flowers blossom in spring season" and "That works on spring action" are same, while that is not the case with 'higher level LSTM' word embedding in ELMo.
+* GPT is also not a case sensitive, but is context sensitive.
 
 ## Future works:
-* Analyzing the word embeddings of ULMFit, GPT and XLNet.
+* Analyzing the word embeddings of ULMFit, GPT-2 and XLNet.
 * Analyzing the sentence embeddings.
-
 
