@@ -36,7 +36,7 @@
 * As explained in the [paper](https://arxiv.org/pdf/1802.05365.pdf), the higher level LSTM embeddings of ELMo are highly sensitive to the context. This means that two equal words are not similar, when they are surrounded by different neighbouring words in different sentences.
 * These high level features works better with polysemy.
 * BERT is not case sensitive. It is not context sensitive either.
-* GPT is also not a case sensitive, but is context sensitive.
+* GPT is both case sensitive and context sensitive.
 
 ## Future works:
 * Analyzing the word embeddings of ULMFit, GPT-2 and XLNet.
