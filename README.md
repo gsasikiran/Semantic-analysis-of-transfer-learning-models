@@ -27,7 +27,7 @@
 
 ## Example results:
 
-![](results/bert_similarity_matrix.jpg) ![](results/elmo_similarity_matrix.jpg) ![](results/elmo_syntax_based_similarity_matrix.jpg) ![](results/gpt_similarity_matrix.jpg)
+![](results/bert_similarity_matrix.jpg) ![](results/elmo_similarity_matrix.jpg) ![](results/elmo_syntax_based_similarity_matrix.png) ![](results/gpt_similarity_matrix.jpg)
 
 * Note: The lighter the cell, the more similar the words are!!
 
